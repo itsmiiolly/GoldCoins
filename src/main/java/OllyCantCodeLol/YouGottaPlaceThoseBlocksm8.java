@@ -20,9 +20,7 @@ public class YouGottaPlaceThoseBlocksm8 implements Listener {
 
 	@EventHandler
 	public void BlockPlacedEvent(BlockPlaceEvent e) {
-		Bukkit.broadcastMessage("BlockPlaceEvent has been fired: " + e.getBlock().toString());
 		if (e.getBlock().getType().equals(Material.GOLD_BLOCK)) {
-			Bukkit.broadcastMessage("A block at " + e.getBlock().getLocation().toString() + " has been placed.");
 			GottaGetRichQuickm8.blocks.add(e.getBlock());
 		}
 	}
