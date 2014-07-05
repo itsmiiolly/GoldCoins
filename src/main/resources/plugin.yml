@@ -1,0 +1,7 @@
+name: Make coins
+version: 0.1
+main: OllyCantCodeLol.superSkidOlly
+author: hdt80bro
+commands:
+    makecoins:
+        description: Gotta go fast
